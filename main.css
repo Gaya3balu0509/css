@@ -1,0 +1,115 @@
+.tab {  
+    border: 10px solid black;
+    width:100%;
+    background-color: black;  
+    color:white; 
+    display: flex;
+    }
+.tab1{
+    border: 10px solid rgb(239, 239, 243);
+    color:green;
+    display: flex;
+}
+
+.table{
+    border:1px solid black;
+    border-radius: 5px;
+    color:black;
+    width:14%;
+    font-size:50px;
+    
+}
+.table2{
+    border:20px solid white;
+    color:grey;
+    font-size: 20px;
+    position: absolute;
+    right:60%;
+}
+.table3{
+
+    border:1px solid black;
+    border-radius:8px;
+    color:grey;
+    font-size: 20px;
+    text-align:left;
+    position:absolute;
+    top:7%;
+    right: 25%;
+    width:30%;
+    height:5%;
+}
+.tab2{ 
+    width: 100%;
+    background-color:rgb(40, 141, 236);
+    padding:0.5%;
+    margin: 0%;
+
+}
+#new21{
+    color:white;
+    text-align: center;
+
+}
+.outer{
+    display: grid;
+    grid-template-columns: 20% 15% 65%; 
+}
+
+.contents{ 
+    background-color: white;
+    padding: 10px;
+
+}
+
+.item0{
+    font-size: 30px;
+}
+.picture{
+    display: grid;
+    grid-template-columns: 30% 30% 30%; 
+    background-color: white;
+    padding: 10px;
+    
+
+}
+ .hrtimg{
+     position: absolute;
+     height:50px;
+     width:50px;
+ }
+ .ftr{
+     display:grid;
+     grid-template-columns: auto auto auto auto auto;
+     margin: 3%;
+     color:white;
+ }
+ #footer{
+    display:grid;
+    background-color: black;
+    color:white;
+    grid-template-columns:20% 20% 50%;
+ }
+
+ #searchimg,#mainhrt,#cartimg{
+    position:absolute;
+    top:7%;
+ }
+ #searchimg{
+     right: 6%;
+ }
+ #mainhrt{
+     right:5%;
+ }
+ #cartimg{
+     right:2%;
+ }
+
+ #skava{
+     top: 50%;
+     font-size:300%;
+
+ }
+ #tgnt{
+     color:greenyellow;
+ }
