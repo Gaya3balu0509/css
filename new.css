@@ -1,0 +1,168 @@
+.tab {  
+    border: 10px solid black;
+    background-color: black;  
+    color:white; 
+    }
+
+.gridsign{
+    display: grid;
+    grid-template-columns: 30% 15% 40% 10% ;
+    column-gap:5px;
+}
+.tab1{
+    margin: 1%;
+    color:green;
+    display: grid;
+    grid-template-columns: 25% 25% 40% 10% ;
+    column-gap:5px;
+
+}
+
+#box{
+    border: 1px solid black;
+    border-radius: 5px;
+    color:black;
+    margin: 6%;
+   font-size:100%;
+   height:35%;
+   padding: 2%; 
+   
+}
+.dept{
+   margin: 10%;
+    color:black;
+    font-size: 100%
+}
+#searchtab{
+
+    border:1px solid black;
+    border-radius:8px;
+    color:grey;
+    font-size: 20px;
+    margin: 2%; 
+    padding: 3%; 
+}
+#fav{
+    margin: 15%;
+} 
+.sort{
+    border:1px solid black;
+    width: 15%;
+    display: flex;
+}
+.tab2{ 
+    width: 100%;
+    background-color:rgb(40, 141, 236);
+    padding:0.5%;
+    
+
+}
+#home{
+    color:white;
+    text-align: center;
+
+}
+@media screen and (max-width: 2402px) {
+.outer{
+    display: grid;
+    grid-template-columns:10% 20% 50% 10%; 
+    column-gap:4%;
+}
+}
+
+@media screen and (max-width:556px) {
+    .outer{
+        display: grid;
+        grid-template-columns: 100%; 
+        column-gap:4%;
+    }
+    }
+
+.contents{ 
+    background-color: white;
+    margin: 20%;
+    display: grid;
+    grid-template-columns:auto;
+    font-size:100%;
+}
+
+.item0{
+    font-size: 30px;
+   
+}
+
+@media screen and (max-width: 2402px) {
+.picture{
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    background-color: white;
+}}
+
+@media screen and (max-width: 556px) {
+    .picture{
+        display: grid;
+        grid-template-columns:40% 40%;
+        background-color: white;
+    }}
+  
+  .item1 {
+    background-color: white;
+    border: 1px solid white;  
+    font-size:100%;
+  }
+ .hrtimg{
+     position: absolute;
+     height:50px;
+     width:50px;
+ }
+ 
+@media screen and (max-width: 2302px) {
+ #footer{
+    padding: 10px;
+    display:grid;
+    background-color: black;
+    color:white;
+    grid-template-columns:20% 20% 60% ;
+ }
+ 
+ .ftr{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20% ;
+    margin: 3%;
+    color:white;
+}
+ }
+
+ @media screen and (max-width: 556px) {
+    #footer{
+        padding: 10px;
+        display:grid;
+        background-color: black;
+        color:white;
+       
+     }
+     .ftr{
+        display:grid;
+        grid-template-columns: 20% 20% 20% 20% 20% ;
+        margin: 3%;
+        color:white;
+    }
+    }
+
+#skava{
+    top: 50%;
+    font-size:300%;
+
+}
+
+ #tgnt{
+     color:greenyellow;
+ }
+#rights{
+        padding: 10px;
+        display:grid;
+        background-color: black;
+        color:white;
+        grid-template-columns:auto;
+       
+    }
